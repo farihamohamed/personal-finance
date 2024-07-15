@@ -1,0 +1,9 @@
+body{ 
+    background-color: #F7E9DC;
+    font-family: "Inter", sans-serif;
+}
+
+.expense-bar{
+    display: flex;
+}
+
