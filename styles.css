@@ -1,11 +1,50 @@
 /* Body */ 
-*{ 
+body{ 
     background-color: #F7E9DC;
     display: grid;
+    font-family: "Inter", sans-serif;
+   
+}
+/* Text Styling */ 
+
+.title-display{ 
+    font-weight: normal;
+}
+
+.small-text{ 
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
 }
 
 
+.balance-display{ 
+    font-weight: lighter;
+    color: white;
+}
+
+
+
+
+
+/* Balance Display */
+
+.balance-display{
+    background-color: #EB765D;
+    display: flex;
+    width: 493px;
+    height: 87px;
+    border-radius: 5px;;
+
+}
+
+
+
 /* Bar Styling */
+
+
+
+
 
 .bar{ 
    
@@ -54,4 +93,28 @@
     margin: 10px;
 }
 
-/*  ... */ 
+/* Spending Display */ 
+ .spending-display{ 
+    background-color: #FFFCF7;
+    height:400px; 
+    width: 493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+ } 
+
+
+ .spendingMini{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+ } 
+
+ .display{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
