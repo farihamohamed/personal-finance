@@ -1,0 +1,47 @@
+ 
+
+/* CSS */
+.hidden {
+    display: none;
+  }
+  
+
+  .outter{
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+  }
+
+    
+    .login-box{
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-evenly;
+      align-items: center;
+      width: 674px;
+      height: 622px;
+      border: solid; 
+      border-radius: 5px; 
+      
+    }
+    
+    
+    .myForm{  
+      display: flex; 
+      flex-direction: column; 
+    }
+    
+    
+    input{ 
+      width: 448px;
+      height: 56px; 
+      background-color: #FFEFD7; 
+      margin: 5px;
+      border: solid 1px;
+      border-radius: 30px; 
+    }
+     
+    
+    #submit{ 
+      background-color: #FDCABE;
+    }
